@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3179c486391da9443aa57f9ce8c54954, type: 3}
-  m_Name: DemoStateConfiguration
+  m_Name: UltimateCharacterControllerDemoStateConfiguration
   m_EditorClassIdentifier: 
   m_Profiles:
   - m_Name: AssaultRifle
@@ -21,7 +21,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 9ac19110060348a41954f44416c05089, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -29,15 +29,15 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Aim
-      m_Preset: {fileID: 11400000, guid: d9ee9300c6f717e40bb8eb3d2a3dbd3f, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Use
-      m_Preset: {fileID: 11400000, guid: 0325998cda98782439d9f21fac27a670, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 3c6a607bb4c8f38459ec3d580dd1db24, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - Aim
       - Use
@@ -103,7 +103,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 50a5f74ba80091b47954d1f678ac7823, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -111,7 +111,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 1f8a3c69aa5a1444ab6320ac42afb20d, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -131,7 +131,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 4190e04bc0ea19b4cb2328526604fea5, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultGrenadeItem
@@ -181,7 +181,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 3548f553157093944820634691264b09, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -189,11 +189,11 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: SwordShield
-      m_Preset: {fileID: 11400000, guid: 1d25b15fcd7076e44af7f0a0b7b59a40, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: ffbae82e4cd930a44b52bb67277802b7, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -303,7 +303,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: e374b9f2c9898e0409910155b69b6665, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -311,34 +311,34 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: CrazyCowboy
-      m_Preset: {fileID: 11400000, guid: 1d08d5c2f79acb0458ab29a98cdc147b, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: OldSchool
-      m_Preset: {fileID: 11400000, guid: 1c368bfbdff99054aabd6a2b2355fe6f, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: SpringsOff
-      m_Preset: {fileID: 11400000, guid: 22f602dad67abdd40ada756e49ff182e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Aim
-      m_Preset: {fileID: 11400000, guid: a249d93df21def141aec91c1278966bd, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - DualPistols
       m_Default: 0
     - m_Name: Use
-      m_Preset: {fileID: 11400000, guid: c124042254d9c054d9a8fe2c877dc7d8, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - DualPistols
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 53197141a8778304abed3b3cca0d4987, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - DualPistols
       m_Default: 0
     - m_Name: DualPistols
-      m_Preset: {fileID: 11400000, guid: 34bfa680d9ee91842aa23038c4386bbe, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -390,7 +390,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: e374b9f2c9898e0409910155b69b6665, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -421,7 +421,7 @@ MonoBehaviour:
     m_Type: 1
     m_StateElements:
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 871670a7bb47165419ab7335dfae77ad, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -429,11 +429,11 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Aim
-      m_Preset: {fileID: 11400000, guid: a5d69d664a01bda4895ff99458127cd3, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: ce2f9e15494910a45aa735adeb509a04, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - Aim
       m_Default: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
     m_Type: 1
     m_StateElements:
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 31598bbf7dd8cc94d96d517d7b7315f2, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -485,11 +485,11 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Aim
-      m_Preset: {fileID: 11400000, guid: 0b4c48fbe7429ba40ac803e132d7ce7c, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: e6fe3816d17fee447b8a4d5a6e6346fd, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -536,7 +536,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: e1e774dc710f62b4dac2bef33059b661, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -544,11 +544,11 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Aim
-      m_Preset: {fileID: 11400000, guid: 8ff36fdf3c57ef442bd3dd7c0a9c7f3a, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 061997dd7609a1f4d98ef505ed93503b, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - Aim
       m_Default: 0
@@ -592,7 +592,7 @@ MonoBehaviour:
     m_Type: 1
     m_StateElements:
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: ab1c3f5328061a34c82576ed0e161233, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -600,19 +600,19 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: CrazyCowboy
-      m_Preset: {fileID: 11400000, guid: 29399015b5c638646ae4e0c9dde3f774, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: OldSchool
-      m_Preset: {fileID: 11400000, guid: 1c368bfbdff99054aabd6a2b2355fe6f, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: SpringsOff
-      m_Preset: {fileID: 11400000, guid: 22f602dad67abdd40ada756e49ff182e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 2bff6f498d508074b88910ee37b302c5, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -667,7 +667,7 @@ MonoBehaviour:
     m_Type: 1
     m_StateElements:
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 6fd19618c3585db4cab2ecba2bd1fcf3, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -675,7 +675,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: c834e4f315ffedb48885ef96c43d665c, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -698,7 +698,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 50a5f74ba80091b47954d1f678ac7823, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -706,7 +706,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 329a0394b7421574781f94424b8eded8, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -718,7 +718,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 1ac2a37ca497c51469040d39f655af31, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultShootableWeapon
@@ -737,7 +737,7 @@ MonoBehaviour:
     m_Type: 1
     m_StateElements:
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 6705ce414b3d4f84e9008050402de5cf, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -745,7 +745,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 5d6f42daf932153479af13e3cbdf6cf6, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -821,7 +821,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FreeLook
-      m_Preset: {fileID: 11400000, guid: b2210a71c154a9a4d9fea00646690ece, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: ThirdPersonCombat
@@ -833,11 +833,11 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: CrazyCowboy
-      m_Preset: {fileID: 11400000, guid: 3c20c83e67f2cc34a8af4b887fd56daf, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: OldSchool
-      m_Preset: {fileID: 11400000, guid: ec2a7c2ac87c9324a830e019c1b9b6a3, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Adventure
@@ -845,18 +845,18 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: Interact
-      m_Preset: {fileID: 11400000, guid: b2210a71c154a9a4d9fea00646690ece, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList:
       - Adventure
       - ThirdPersonCombat
       - RPG
       m_Default: 0
     - m_Name: UseShieldBubble
-      m_Preset: {fileID: 11400000, guid: b2210a71c154a9a4d9fea00646690ece, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: a8d50ac4b54bb7e468e32d6f366f7a7c, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: Aim
@@ -972,7 +972,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 078bff04ac2aeaa41b5e64d9016a240d, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultJump
@@ -980,7 +980,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 567ccc5a6ecd11941888322286aac0cc, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFall
@@ -1020,7 +1020,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 7e81d5c689f796346b5a374fbd39ed8e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultInteract
@@ -1032,7 +1032,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 7e81d5c689f796346b5a374fbd39ed8e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultInteract
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: FirstPersonRoom
-      m_Preset: {fileID: 11400000, guid: 36bfcc7bbbf533d49930b368186f944e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultEquipUnequip
@@ -1262,7 +1262,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: FirstPersonRoom
-      m_Preset: {fileID: 11400000, guid: 36bfcc7bbbf533d49930b368186f944e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultEquipUnequip
@@ -1270,7 +1270,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: FirstPersonRoom
-      m_Preset: {fileID: 11400000, guid: 36bfcc7bbbf533d49930b368186f944e, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultEquipUnequip
@@ -1440,7 +1440,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 858baa3a59dd9b448a8106c56a87c6b8, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: ParticleStream
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: OldSchool
-      m_Preset: {fileID: 11400000, guid: 5718e44670dd66e4abb38db90f41bdce, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: AimSniperRifle
@@ -1640,7 +1640,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 50a5f74ba80091b47954d1f678ac7823, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultItem
@@ -1648,7 +1648,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 1
     - m_Name: Run
-      m_Preset: {fileID: 11400000, guid: 1f8a3c69aa5a1444ab6320ac42afb20d, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultFirstPersonPerspectiveItem
@@ -1672,7 +1672,7 @@ MonoBehaviour:
       m_BlockList: []
       m_Default: 0
     - m_Name: FirstPerson
-      m_Preset: {fileID: 11400000, guid: 4190e04bc0ea19b4cb2328526604fea5, type: 2}
+      m_Preset: {fileID: 0}
       m_BlockList: []
       m_Default: 0
     - m_Name: DefaultGrenadeItem
